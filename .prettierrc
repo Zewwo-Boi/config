@@ -1,0 +1,25 @@
+{
+    "useTabs": true,
+    "bracketSameLine": true,
+    "vueIndentScriptAndStyle": true,
+    "quoteProps": "consistent",
+    "semi": true,
+    "arrowParens": "avoid",
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "printWidth": 200,
+    "overrides": [
+        {
+          "files": "*.js",
+          "options": {
+            "printWidth": 160
+          }
+        },
+        {
+          "files": ["*.html", "*.vue"],
+          "options": {
+            "printWidth": 10000
+          }
+        }
+      ]
+}
